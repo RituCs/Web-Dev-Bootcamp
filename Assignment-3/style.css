@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+.btn{
+    width: 250px;
+    height: 65px;
+    font-size: 2rem;
+    outline: none;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.068);
+    color: rgba(255, 255, 255, 0.795);
+    transition: all 0.7s;
+    
+}
+.btn:hover{
+    
+    transform: translate(0, -7px);
+    border: 2.5px solid  rgb(231, 100, 52);
+    color: rgba(231, 100, 52, 0.877);
+    box-shadow: 0px 14px 10px -10px coral;            /*-10px is the negative spread value . It is using for giving box shdow bottom side only? */
+    
+}
+
+span{
+    padding: 5px;
+}
